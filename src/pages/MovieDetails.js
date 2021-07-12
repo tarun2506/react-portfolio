@@ -62,6 +62,10 @@ const Headline = styled.div`
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
+    @media (max-width: 1200px) {
+      width: 100%;
+      text-align: center;
+    }
   }
   img {
     width: 100%;
@@ -75,6 +79,10 @@ const Awards = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 1200px) {
+    display: block;
+    margin: 2rem 2rem;
+  }
 `;
 
 const AwardStyle = styled.div`
