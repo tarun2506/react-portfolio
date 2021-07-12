@@ -37,7 +37,10 @@ const Navbar = styled.nav`
     color: white;
     text-decoration: none;
   }
-
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  left: 0;
   ul {
     display: flex;
     list-style: none;
